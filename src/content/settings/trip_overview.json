@@ -1,16 +1,28 @@
 {
-  "heading": "Our Journey",
+  "heading": "Yeshara Shenara  & Caitlyn      Our Journey",
   "subheading": "13 days of adventure, memories, and family fun",
   "start_date": "27 December 2025",
   "end_date": "8 January 2026",
   "cities": [
-    { "label": "🌆 Ho Chi Minh City" },
-    { "label": "🏮 Hội An" },
-    { "label": "🏛️ Hanoi" }
+    {
+      "label": "🌆 Ho Chi Minh City"
+    },
+    {
+      "label": "🏮 Hội An"
+    },
+    {
+      "label": "🏛️ Hanoi"
+    }
   ],
   "hotels": [
-    { "label": "New World Saigon Hotel" },
-    { "label": "Wyndham Garden Hội An" },
-    { "label": "Meritel Hanoi" }
+    {
+      "label": "New World Saigon Hotel"
+    },
+    {
+      "label": "Wyndham Garden Hội An"
+    },
+    {
+      "label": "Meritel Hanoi"
+    }
   ]
 }
