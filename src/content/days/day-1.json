@@ -1,25 +1,18 @@
 {
-  "day_number": 1,
-  "title": "Arrival Day",
-  "date": "27 Dec 2025",
-  "city": "HCMC",
-
   "hero_caption": "",
-  "hero_image": "",
-
-  "morning": "",
-  "morning_photos": [],
-
-  "afternoon": "",
-  "afternoon_photos": [],
-
-  "evening": "",
-  "evening_photos": [],
-
-  "kids_rating": "",
-  "costs": "",
-
   "notes": "",
-
-  "gallery": []
+  "afternoon_photos": [],
+  "morning": "",
+  "costs": "",
+  "evening": "",
+  "city": "HCMC",
+  "day_number": 1,
+  "date": "27 Dec 2025",
+  "kids_rating": "",
+  "gallery": [],
+  "hero_image": "/uploads/20241224_090841.jpg",
+  "evening_photos": [],
+  "title": "Arrival Day",
+  "morning_photos": [],
+  "afternoon": ""
 }
