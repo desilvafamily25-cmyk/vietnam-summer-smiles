@@ -17,8 +17,8 @@ export default defineConfig(({ mode }) => ({
     // ⭐ Prevent Vite from transforming /admin/index.html
     {
       name: "no-transform-admin",
-      enforce: "post",
-      transformIndexHtml(html, ctx) {
+      enforce: "post" as const,
+      transformIndexHtml(html: string, ctx: { path?: string }) {
         if (ctx?.path?.startsWith("/admin")) {
           return html; // leave CMS admin HTML untouched
         }
