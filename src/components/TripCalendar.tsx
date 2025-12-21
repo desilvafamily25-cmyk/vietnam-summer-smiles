@@ -37,10 +37,16 @@ const TripCalendar = () => {
                 <tr>
                   <td className="p-2"></td>
                   <td className="p-2"></td>
+                  <td className="p-2"></td>
+                  <td className="p-2"></td>
+                  <td className="p-2"></td>
+                  <td className="p-2"></td>
                   <td className="border border-border/50 p-3 rounded-lg">
                     <span className="font-semibold text-foreground">27</span>
                     <div className="text-xs text-coral mt-1">HCMC</div>
                   </td>
+                </tr>
+                <tr>
                   <td className="border border-border/50 p-3 rounded-lg">
                     <span className="font-semibold text-foreground">28</span>
                     <div className="text-xs text-coral mt-1">HCMC</div>
@@ -58,6 +64,9 @@ const TripCalendar = () => {
                     <span className="font-semibold text-foreground">31</span>
                     <div className="text-xs text-turquoise mt-1">Hội An</div>
                   </td>
+                  <td className="p-2"></td>
+                  <td className="p-2"></td>
+                  <td className="p-2"></td>
                 </tr>
               </tbody>
             </table>
@@ -83,6 +92,7 @@ const TripCalendar = () => {
                   <td className="p-2"></td>
                   <td className="p-2"></td>
                   <td className="p-2"></td>
+                  <td className="p-2"></td>
                   <td className="border border-border/50 p-3 rounded-lg">
                     <span className="font-semibold text-foreground">1</span>
                     <div className="text-xs text-turquoise mt-1">Hội An</div>
@@ -97,13 +107,13 @@ const TripCalendar = () => {
                     <div className="text-xs text-sunshine mt-1">🚢 Halong Bay</div>
                     <div className="text-xs text-sunshine">Cruise</div>
                   </td>
+                </tr>
+                <tr>
                   <td className="border border-border/50 p-3 rounded-lg bg-sunshine/20">
                     <span className="font-semibold text-foreground">4</span>
                     <div className="text-xs text-sunshine mt-1">🚢 Halong →</div>
                     <div className="text-xs text-primary">Hanoi</div>
                   </td>
-                </tr>
-                <tr>
                   <td className="border border-border/50 p-3 rounded-lg">
                     <span className="font-semibold text-foreground">5</span>
                     <div className="text-xs text-primary mt-1">Hanoi</div>
