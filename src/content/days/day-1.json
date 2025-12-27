@@ -1,30 +1,18 @@
 {
-  "day_number": 1,
-  "title": "Arrival Day",
-  "date": "27 Dec 2025",
-  "city": "HCMC",
-  "hero_caption": "",
-  "hero_image": "/uploads/20241224_090841.jpg",
-  "morning": "Today is very tiring. \nWe had breakfast in the bed. ",
-  "morning_photos": [
-    {
-      "image": "/uploads/20221023_110916.jpg"
-    }
-  ],
-  "afternoon": "we are getting used to the jet lag",
-  "afternoon_photos": [
-    {
-      "image": "/uploads/20230112_170244.jpg"
-    }
-  ],
-  "evening": "Want to sleep now. Long day",
-  "evening_photos": [
-    {
-      "image": "/uploads/screenshot-2025-09-30-203035.png"
-    }
-  ],
-  "kids_rating": "****",
-  "costs": "",
+  "hero_caption": " Finally In Vietnam ",
   "notes": "",
-  "gallery": []
+  "afternoon_photos": [],
+  "morning": "Yeshara and shenara had to go on 2 planes from Australia to Thailand and Thailand to Vietnam.\nfor the whole the morning we on planes sleeping. \n",
+  "costs": "",
+  "evening": "Want to sleep now. Long day",
+  "city": "HCMC",
+  "day_number": 1,
+  "date": "27 Dec 2025",
+  "kids_rating": "****",
+  "gallery": [],
+  "hero_image": "",
+  "evening_photos": [],
+  "title": "Arrival Day",
+  "morning_photos": [],
+  "afternoon": "When we finally landed in Ho Chi Minh City we were originally going to use an app called grab that gives us easy access to a driver that will take us to the places we need to be but, a small business stand in the airport offered to take us to our hotel (New World Saigon Hotel HCMC) $25 AUD in 30 minutes .Its actually wasn't far but since there was so much traffic as usual with all the many motorbikes  it took 30 minutes."
 }
