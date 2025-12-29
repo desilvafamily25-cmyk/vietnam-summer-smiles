@@ -13,7 +13,17 @@
   "day_number": 1,
   "date": "27 Dec 2025",
   "kids_rating": "the day was and very fun and i was definitely not jet lagged",
-  "gallery": [],
+  "gallery": [
+    {
+      "image": "/uploads/20251227_193917.jpg"
+    },
+    {
+      "image": "/uploads/img-20251228-wa0020.jpg"
+    },
+    {
+      "image": "/uploads/20251227_194059.jpg"
+    }
+  ],
   "hero_image": "/uploads/gemini_generated_image_ops0qxops0qxops0.png",
   "evening_photos": [
     {
