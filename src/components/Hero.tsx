@@ -2,9 +2,11 @@ import defaultHeroImage from "@/assets/hero-lanterns.jpg";
 import { heroConfig } from "@/lib/settings";
 
 const floatingPhotos = [
-  { src: "/uploads/20251229_151514.jpg", alt: "Travel memory 1", position: "top-16 left-4 md:left-12", delay: "0s", size: "w-20 h-24 md:w-28 md:h-32" },
-  { src: "/uploads/20251229_151640.jpg", alt: "Travel memory 2", position: "top-24 right-4 md:right-16", delay: "1.5s", size: "w-20 h-24 md:w-28 md:h-32" },
-  { src: "/uploads/20251229_151546.jpg", alt: "Travel memory 3", position: "bottom-40 left-8 md:left-24", delay: "3s", size: "w-20 h-24 md:w-28 md:h-32" },
+  { src: "/uploads/20251229_151514.jpg", alt: "Travel memory 1", position: "top-16 left-4 md:left-12", delay: "0s", size: "w-20 h-24 md:w-28 md:h-32", rotate: "rotate-3" },
+  { src: "/uploads/20251229_151640.jpg", alt: "Travel memory 2", position: "top-24 right-4 md:right-16", delay: "1.5s", size: "w-20 h-24 md:w-28 md:h-32", rotate: "-rotate-2" },
+  { src: "/uploads/20251229_151546.jpg", alt: "Travel memory 3", position: "bottom-40 left-8 md:left-24", delay: "3s", size: "w-20 h-24 md:w-28 md:h-32", rotate: "rotate-2" },
+  { src: "/uploads/IMG-20251228-WA0020.jpg", alt: "Travel memory 4", position: "bottom-48 right-6 md:right-20", delay: "0.5s", size: "w-24 h-16 md:w-32 md:h-20", rotate: "-rotate-3" },
+  { src: "/uploads/20251229_151459.jpg", alt: "Travel memory 5", position: "top-40 left-1/2 -translate-x-1/2 md:left-1/3", delay: "2s", size: "w-20 h-24 md:w-28 md:h-32", rotate: "rotate-1" },
 ];
 
 const Hero = () => {
@@ -32,7 +34,7 @@ const Hero = () => {
             className={`absolute ${photo.position} animate-float`}
             style={{ animationDelay: photo.delay }}
           >
-            <div className={`${photo.size} rounded-lg overflow-hidden shadow-elegant border-2 border-white/80 rotate-3 hover:rotate-0 transition-transform duration-300`}>
+            <div className={`${photo.size} rounded-lg overflow-hidden shadow-elegant border-2 border-white/80 ${photo.rotate} hover:rotate-0 transition-transform duration-300`}>
               <img 
                 src={photo.src} 
                 alt={photo.alt}
