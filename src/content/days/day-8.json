@@ -1,10 +1,10 @@
 {
   "day_number": 8,
-  "title": "Free Night",
+  "title": "Halong Bay Cruise",
   "date": "3 Jan 2026",
   "city": "Hanoi",
   "hero_caption": "",
-  "hero_image": "",
+  "hero_image": "/uploads/IMG-20260103-WA0033.jpg",
   "morning": "",
   "morning_photos": [],
   "afternoon": "",
@@ -14,5 +14,15 @@
   "kids_rating": "",
   "costs": "",
   "notes": "",
-  "gallery": []
+  "gallery": [
+    "/uploads/20260103_082537.jpg",
+    "/uploads/20260103_111012.jpg",
+    "/uploads/20260103_111039.jpg",
+    "/uploads/20260103_112447.jpg",
+    "/uploads/IMG-20260103-WA0023.jpg",
+    "/uploads/20260103_153319.jpg",
+    "/uploads/IMG-20260103-WA0033.jpg",
+    "/uploads/20260103_171819.jpg",
+    "/uploads/IMG-20260103-WA0031.jpg"
+  ]
 }
