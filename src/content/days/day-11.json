@@ -1,18 +1,33 @@
 {
   "day_number": 11,
-  "title": "Halong Bay Day Trip",
+  "title": "Pottery & Water Puppets",
   "date": "6 Jan 2026",
   "city": "Hanoi",
-  "hero_caption": "",
-  "hero_image": "",
+  "hero_caption": "Thang Long Water Puppet Theatre",
+  "hero_image": "/uploads/20260106_193918.jpg",
   "morning": "",
   "morning_photos": [],
   "afternoon": "",
-  "afternoon_photos": [],
+  "afternoon_photos": [
+    "/uploads/20260106_174447.jpg",
+    "/uploads/20260106_174512.jpg"
+  ],
   "evening": "",
-  "evening_photos": [],
+  "evening_photos": [
+    "/uploads/20260106_193918.jpg",
+    "/uploads/20260106_200021.jpg",
+    "/uploads/20260106_204954.jpg",
+    "/uploads/IMG-20260106-WA0004.jpg"
+  ],
   "kids_rating": "",
   "costs": "",
   "notes": "",
-  "gallery": []
+  "gallery": [
+    "/uploads/20260106_174447.jpg",
+    "/uploads/20260106_174512.jpg",
+    "/uploads/20260106_193918.jpg",
+    "/uploads/20260106_200021.jpg",
+    "/uploads/20260106_204954.jpg",
+    "/uploads/IMG-20260106-WA0004.jpg"
+  ]
 }
