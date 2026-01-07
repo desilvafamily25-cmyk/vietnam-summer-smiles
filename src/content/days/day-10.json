@@ -1,7 +1,11 @@
 {
-  "hero_caption": "",
+  "hero_caption": "Bat Trang Pottery Workshop",
   "notes": "",
-  "afternoon_photos": [],
+  "afternoon_photos": [
+    "/uploads/IMG-20260105-WA0008.jpg",
+    "/uploads/IMG-20260105-WA0011.jpg",
+    "/uploads/IMG-20260105-WA0012.jpg"
+  ],
   "morning": "",
   "costs": "",
   "evening": "",
@@ -9,10 +13,21 @@
   "day_number": 10,
   "date": "5 Jan 2026",
   "kids_rating": "",
-  "gallery": [],
-  "hero_image": "",
-  "evening_photos": [],
-  "title": "staying with caitlyn (relaxing/ sick day)",
+  "gallery": [
+    "/uploads/IMG-20260105-WA0008.jpg",
+    "/uploads/IMG-20260105-WA0011.jpg",
+    "/uploads/IMG-20260105-WA0012.jpg",
+    "/uploads/IMG-20260105-WA0014.jpg",
+    "/uploads/IMG-20260105-WA0003.jpg",
+    "/uploads/IMG-20260105-WA0004.jpg"
+  ],
+  "hero_image": "/uploads/IMG-20260105-WA0012.jpg",
+  "evening_photos": [
+    "/uploads/IMG-20260105-WA0014.jpg",
+    "/uploads/IMG-20260105-WA0003.jpg",
+    "/uploads/IMG-20260105-WA0004.jpg"
+  ],
+  "title": "Pottery Workshop",
   "morning_photos": [],
   "afternoon": ""
 }
