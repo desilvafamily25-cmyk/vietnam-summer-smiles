@@ -5,10 +5,10 @@ import { ArrowLeft, Mountain, Calendar, DollarSign, AlertCircle } from "lucide-r
 
 const Hanoi = () => {
   const days = [
-    { day: 8, date: "3 Jan 2026", title: "Free Night", isSpecial: true },
-    { day: 9, date: "4 Jan 2026", title: "Exploring Old Quarter" },
-    { day: 10, date: "5 Jan 2026", title: "Temples & Lakes" },
-    { day: 11, date: "6 Jan 2026", title: "Halong Bay Day Trip" },
+    { day: 8, date: "3 Jan 2026", title: "Halong Bay Cruise" },
+    { day: 9, date: "4 Jan 2026", title: "Kayaking & Spa Day" },
+    { day: 10, date: "5 Jan 2026", title: "Pottery Workshop" },
+    { day: 11, date: "6 Jan 2026", title: "Pottery & Water Puppets" },
   ];
 
   return (
@@ -85,23 +85,14 @@ const Hanoi = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {days.map((day) => (
             <Link key={day.day} to={`/day/${day.day}`}>
-              <Card className={`p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 bg-card h-full group ${
-                day.isSpecial ? 'border-2 border-amber-300' : 'border-2 border-sunshine/10'
-              }`}>
-                <div className={`text-white rounded-2xl p-4 mb-4 group-hover:scale-105 transition-transform duration-300 ${
-                  day.isSpecial ? 'bg-gradient-to-br from-amber-400 to-amber-600' : 'bg-gradient-to-br from-sunshine to-coral'
-                }`}>
+              <Card className="p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 bg-card h-full group border-2 border-sunshine/10">
+                <div className="text-white rounded-2xl p-4 mb-4 group-hover:scale-105 transition-transform duration-300 bg-gradient-to-br from-sunshine to-coral">
                   <p className="text-sm font-semibold opacity-90">Day {day.day}</p>
                   <p className="text-2xl font-bold">{day.date}</p>
                 </div>
                 <h3 className="text-xl font-semibold mb-2 text-foreground">
                   {day.title}
                 </h3>
-                {day.isSpecial && (
-                  <p className="text-amber-700 text-sm font-medium mb-2">
-                    ⭐ Special night - TBD
-                  </p>
-                )}
                 <p className="text-muted-foreground text-sm">
                   Click to view photos and memories
                 </p>
