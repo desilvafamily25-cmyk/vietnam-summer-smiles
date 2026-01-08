@@ -3,17 +3,29 @@
   "title": "Halong Bay Cruise",
   "date": "3 Jan 2026",
   "city": "Hanoi",
-  "hero_caption": "",
+  "hero_caption": "Sailing through the magical limestone islands ⛵",
   "hero_image": "/uploads/IMG-20260103-WA0033.jpg",
-  "morning": "",
-  "morning_photos": [],
-  "afternoon": "",
-  "afternoon_photos": [],
-  "evening": "",
-  "evening_photos": [],
-  "kids_rating": "",
+  "morning": "We woke up super early to get ready for our Halong Bay cruise adventure! After a quick breakfast at the hotel, we hopped into a van for the drive from Hanoi to the cruise port. The journey took about 3 hours but we kept ourselves entertained by playing games and watching the Vietnamese countryside go by. When we finally arrived and saw the big cruise ship waiting for us, we were SO excited! We boarded the boat and explored our cabins - they were really nice with big windows to see the water. 🚢",
+  "morning_photos": [
+    { "image": "/uploads/20260103_082537.jpg" }
+  ],
+  "afternoon": "This afternoon was absolutely amazing! The cruise sailed through Halong Bay and we got to see the most incredible limestone islands and rock formations rising out of the emerald green water. It looked like something from a movie! We went up to the sun deck to take photos and feel the sea breeze. Some of the islands had caves and we learned that there are over 1,600 islands in Halong Bay - that's crazy! The views were breathtaking and we couldn't stop taking pictures of everything. 📸",
+  "afternoon_photos": [
+    { "image": "/uploads/20260103_111012.jpg" },
+    { "image": "/uploads/20260103_111039.jpg" },
+    { "image": "/uploads/20260103_112447.jpg" },
+    { "image": "/uploads/IMG-20260103-WA0023.jpg" },
+    { "image": "/uploads/20260103_153319.jpg" }
+  ],
+  "evening": "In the evening, the cruise put on an incredible buffet dinner for everyone! The best part was this GIANT macaron tower - it was like a rainbow Christmas tree made entirely of macarons in all different colours: green, pink, grey, blue, yellow, and orange! We all grabbed plates and tried different desserts and treats. The food was delicious and there was so much variety. After dinner we watched the sunset over the bay from the deck - the sky turned all pink and orange and it was so beautiful. What an unforgettable day! 🌅",
+  "evening_photos": [
+    { "image": "/uploads/20260103_171819.jpg" },
+    { "image": "/uploads/IMG-20260103-WA0031.jpg" },
+    { "image": "/uploads/IMG-20260108-WA0006.jpg" }
+  ],
+  "kids_rating": "5 stars - one of the best days of the whole trip! The cruise was amazing and the views were unreal! ⭐⭐⭐⭐⭐",
   "costs": "",
-  "notes": "",
+  "notes": "Halong Bay is a UNESCO World Heritage Site and definitely worth the long drive from Hanoi!",
   "gallery": [
     "/uploads/20260103_082537.jpg",
     "/uploads/20260103_111012.jpg",
