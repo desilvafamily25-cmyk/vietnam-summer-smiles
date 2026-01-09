@@ -60,9 +60,12 @@ const Hero = () => {
       {/* Hero Content */}
       <div className="relative -mt-32 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-20">
         <div className="text-center">
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-shadow-soft">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-2 text-shadow-soft">
             {title}
           </h1>
+          <p className="text-lg sm:text-xl font-bold text-coral mb-6">
+            Caitlyn, Yeshara & Shenara
+          </p>
           <div className="inline-block bg-gradient-sunset px-8 py-3 rounded-full shadow-card mb-8">
             <p className="text-xl sm:text-2xl font-semibold text-white">
               {year_tag}
