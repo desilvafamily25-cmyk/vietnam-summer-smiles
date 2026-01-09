@@ -12,6 +12,8 @@ import DailyBlog from "./pages/DailyBlog";
 import DayPost from "./pages/DayPost";
 import NotFound from "./pages/NotFound";
 import PasswordGate from "./components/PasswordGate";
+import { LightboxProvider } from "./components/Lightbox";
+import StickyBackButton from "./components/StickyBackButton";
 
 const queryClient = new QueryClient();
 
@@ -40,20 +42,23 @@ const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <Toaster />
-        <Sonner />
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/hcmc" element={<HCMC />} />
-            <Route path="/hoi-an" element={<HoiAn />} />
-            <Route path="/hanoi" element={<Hanoi />} />
-            <Route path="/daily-blog" element={<DailyBlog />} />
-            <Route path="/day/:dayId" element={<DayPost />} />
-            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </BrowserRouter>
+        <LightboxProvider>
+          <Toaster />
+          <Sonner />
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/hcmc" element={<HCMC />} />
+              <Route path="/hoi-an" element={<HoiAn />} />
+              <Route path="/hanoi" element={<Hanoi />} />
+              <Route path="/daily-blog" element={<DailyBlog />} />
+              <Route path="/day/:dayId" element={<DayPost />} />
+              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+            <StickyBackButton />
+          </BrowserRouter>
+        </LightboxProvider>
       </TooltipProvider>
     </QueryClientProvider>
   );

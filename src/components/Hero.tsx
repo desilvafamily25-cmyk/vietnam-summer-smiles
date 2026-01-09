@@ -1,6 +1,7 @@
 import defaultHeroImage from "@/assets/hero-lanterns.jpg";
 import { heroConfig } from "@/lib/settings";
 import { useEffect, useState } from "react";
+import { ClickableImage } from "./Lightbox";
 
 const floatingPhotos = [
   { src: "/uploads/20251229_151514.jpg", alt: "Travel memory 1", position: "top-12 left-[5%]", delay: "0s", size: "w-20 h-24 md:w-28 md:h-32", rotate: "rotate-3", parallaxSpeed: 0.3 },
@@ -28,7 +29,7 @@ const Hero = () => {
     <div className="relative overflow-hidden">
       {/* Hero Image */}
       <div className="relative h-[60vh] min-h-[500px] w-full">
-        <img
+        <ClickableImage
           src={heroSrc}
           alt={tagline || "Vietnam travel hero image"}
           className="absolute inset-0 h-full w-full object-cover"
@@ -46,7 +47,7 @@ const Hero = () => {
             }}
           >
             <div className={`${photo.size} rounded-lg overflow-hidden shadow-elegant border-2 border-white/80 ${photo.rotate} hover:rotate-0 transition-transform duration-300`}>
-              <img 
+              <ClickableImage 
                 src={photo.src} 
                 alt={photo.alt}
                 className="w-full h-full object-cover"

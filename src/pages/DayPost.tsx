@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowLeft, Camera, Star, DollarSign } from "lucide-react";
 import { getDayByNumber } from "@/lib/days";
+import { ClickableImage } from "@/components/Lightbox";
 
 const DayPost = () => {
   const { dayId } = useParams();
@@ -66,7 +67,7 @@ const DayPost = () => {
           {/* Hero Photo */}
           <div className="relative aspect-video bg-gradient-to-br from-sky-blue to-turquoise rounded-3xl overflow-hidden shadow-card flex items-center justify-center">
             {dayData.hero_image ? (
-              <img
+              <ClickableImage
                 src={dayData.hero_image}
                 alt={dayData.hero_caption || dayData.title}
                 className="w-full h-full object-cover"
@@ -107,7 +108,7 @@ const DayPost = () => {
                 {dayData.morning_photos!.map((p, idx) => {
                   const src = typeof p === 'string' ? p : p.image;
                   return (
-                    <img
+                    <ClickableImage
                       key={idx}
                       src={src}
                       alt={`Morning photo ${idx + 1}`}
@@ -143,7 +144,7 @@ const DayPost = () => {
                 {dayData.afternoon_photos!.map((p, idx) => {
                   const src = typeof p === 'string' ? p : p.image;
                   return (
-                    <img
+                    <ClickableImage
                       key={idx}
                       src={src}
                       alt={`Afternoon photo ${idx + 1}`}
@@ -179,7 +180,7 @@ const DayPost = () => {
                 {dayData.evening_photos!.map((p, idx) => {
                   const src = typeof p === 'string' ? p : p.image;
                   return (
-                    <img
+                    <ClickableImage
                       key={idx}
                       src={src}
                       alt={`Evening photo ${idx + 1}`}
@@ -242,7 +243,7 @@ const DayPost = () => {
                 {dayData.gallery!.map((img, idx) => {
                   const src = typeof img === 'string' ? img : img.image;
                   return (
-                    <img
+                    <ClickableImage
                       key={idx}
                       src={src}
                       alt={`Gallery photo ${idx + 1}`}
