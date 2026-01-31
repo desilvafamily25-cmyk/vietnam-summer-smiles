@@ -1,18 +1,32 @@
 {
   "day_number": 13,
-  "title": "Departure Day",
+  "title": "Goodbye Vietnam, Hello Home 💔✈️",
   "date": "8 Jan 2026",
-  "city": "HCMC",
-  "hero_caption": "",
-  "hero_image": "",
-  "morning": "",
-  "morning_photos": [],
-  "afternoon": "",
-  "afternoon_photos": [],
-  "evening": "",
-  "evening_photos": [],
-  "kids_rating": "",
-  "costs": "",
-  "notes": "",
-  "gallery": []
+  "city": "HCMC → Melbourne",
+  "hero_caption": "The moment we all arrived home - together at last!",
+  "hero_image": "/uploads/IMG-20260109-WA0000.jpg",
+  "morning": "This was the hardest morning of the whole trip. We had to say goodbye to Vietnam - the country that gave us SO many amazing memories. We woke up at the airport hotel and got ready for our flights. Even though we were excited to see home again, there was a little sadness in our hearts. Caitlyn's family was flying home through Singapore, and Yeshara and Shenara were going through Bangkok with Mum. We gave each other big hugs at the airport and said \"See you in Melbourne!\" It was strange - we'd been together for 13 whole days and now we had to split up!",
+  "morning_photos": [
+    { "image": "/uploads/IMG-20260108-WA0011.jpg" },
+    { "image": "/uploads/IMG-20260108-WA0012.jpg" }
+  ],
+  "afternoon": "The airports were so big and busy! Caitlyn, Derek and Aunty Vanessa went to Singapore - the airport there was AMAZING with beautiful decorations. Yeshara and Shenara flew through Bangkok. It was a bit sad being on different planes, but we knew we'd see each other soon. We had one last Vietnamese coffee at Highlands Coffee before boarding. The planes took off, and as we looked out the window, we could see Vietnam getting smaller and smaller. Goodbye beautiful country!",
+  "afternoon_photos": [
+    { "image": "/uploads/IMG-20260108-WA0018.jpg" },
+    { "image": "/uploads/IMG-20260108-WA0016.jpg" }
+  ],
+  "evening": "And then something MAGICAL happened! Even though we took completely different flights going through different countries, we all landed in Melbourne at almost the EXACT same time the next morning! Can you believe it?! It was like the universe wanted us to finish this adventure together. When we saw the big MELBOURNE sign at the airport, we all felt so happy. We were home! But we also knew that Vietnam would always have a special place in our hearts forever. 💕",
+  "evening_photos": [
+    { "image": "/uploads/IMG-20260109-WA0000.jpg" }
+  ],
+  "kids_rating": "⭐⭐⭐⭐⭐ - Bittersweet but beautiful ending!",
+  "costs": "Flights home + airport snacks",
+  "notes": "This trip was the BEST adventure ever! We saw so many amazing things - lanterns in Hội An, temples in Hanoi, busy streets in HCMC, and so much yummy food! But the best part wasn't the places we visited - it was being together as a family and making memories we'll never forget. We laughed together, tried new things together, and had the best time ever. Vietnam, thank you for everything! We'll definitely be back someday. 🇻🇳💕\n\nFrom three cousins who had the adventure of a lifetime - Caitlyn, Yeshara & Shenara 💫",
+  "gallery": [
+    { "image": "/uploads/IMG-20260108-WA0011.jpg" },
+    { "image": "/uploads/IMG-20260108-WA0012.jpg" },
+    { "image": "/uploads/IMG-20260108-WA0018.jpg" },
+    { "image": "/uploads/IMG-20260108-WA0016.jpg" },
+    { "image": "/uploads/IMG-20260109-WA0000.jpg" }
+  ]
 }
