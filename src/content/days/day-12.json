@@ -3,16 +3,25 @@
   "title": "Return to HCMC",
   "date": "7 Jan 2026",
   "city": "Hanoi → HCMC",
-  "hero_caption": "",
-  "hero_image": "",
-  "morning": "",
+  "hero_caption": "Rooftop dinner with a view of the airport!",
+  "hero_image": "/uploads/20260107_185204.jpg",
+  "morning": "Today we flew from Hanoi back to Ho Chi Minh City. It was a bit sad to leave Hanoi because we had so much fun there, but we were also excited to see HCMC again!",
   "morning_photos": [],
-  "afternoon": "",
-  "afternoon_photos": [],
-  "evening": "",
-  "evening_photos": [],
-  "kids_rating": "",
-  "costs": "",
-  "notes": "",
-  "gallery": []
+  "afternoon": "We stayed at an airport hotel because our flight home is tomorrow. It was cool being so close to the airport - we could see the planes from the hotel! Caitlyn's family went to Saigon Square for some final shopping.",
+  "afternoon_photos": [
+    { "image": "/uploads/20260107_183932.jpg" }
+  ],
+  "evening": "For dinner, Yeshara, Shenara and Mum went to the rooftop restaurant at the Ibis hotel. It was SO fancy! We could see the whole airport and the city lights from up there. We had yummy burgers and Cokes, and Mum had a fancy cocktail. The view was amazing - we could even watch planes taking off and landing!",
+  "evening_photos": [
+    { "image": "/uploads/20260107_185204.jpg" },
+    { "image": "/uploads/20260107_185211.jpg" }
+  ],
+  "kids_rating": "⭐⭐⭐⭐ - Rooftop dinner was super cool!",
+  "costs": "Airport hotel + rooftop dinner",
+  "notes": "Our last night in Vietnam! It was a perfect way to end the trip - watching planes and eating burgers on a rooftop. Tomorrow we fly home to Australia!",
+  "gallery": [
+    { "image": "/uploads/20260107_183932.jpg" },
+    { "image": "/uploads/20260107_185204.jpg" },
+    { "image": "/uploads/20260107_185211.jpg" }
+  ]
 }
