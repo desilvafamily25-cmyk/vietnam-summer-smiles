@@ -1,19 +1,31 @@
 {
   "day_number": 9,
-  "title": "Kayaking & Spa Day",
+  "title": "Halong Bay Kayaking Adventure 🚣",
   "date": "4 Jan 2026",
-  "city": "Hanoi",
-  "hero_caption": "",
+  "city": "Halong Bay → Hanoi",
+  "hero_caption": "Paddling through paradise on our last morning in Halong Bay!",
   "hero_image": "/uploads/IMG-20260105-WA0001.jpg",
-  "morning": "",
-  "morning_photos": [],
-  "afternoon": "",
-  "afternoon_photos": [],
-  "evening": "",
-  "evening_photos": [],
-  "kids_rating": "",
-  "costs": "",
-  "notes": "",
+  "morning": "We woke up SO early this morning because we had something really exciting planned — KAYAKING! The water was so calm and beautiful, like a giant mirror reflecting all the limestone islands. Uncle Derek was super brave and went solo kayaking all by himself! The rest of us jumped into a big paddle boat together and it was so much fun paddling through the emerald green water. We could see fish swimming below us and the towering rocks all around us looked like something from a fairy tale. The morning mist made everything look magical and mysterious. We took so many photos because it was just TOO beautiful! 📸",
+  "morning_photos": [
+    { "image": "/uploads/20260104_074827.jpg" },
+    { "image": "/uploads/20260104_080317.jpg" },
+    { "image": "/uploads/20260104_080319.jpg" },
+    { "image": "/uploads/20260104_081205.jpg" },
+    { "image": "/uploads/IMG-20260105-WA0000.jpg" }
+  ],
+  "afternoon": "After our kayaking adventure, we headed back to the cruise ship for the most AMAZING final brunch! There was so much delicious food — fresh fruit, pastries, eggs, and Vietnamese dishes. We ate while watching the beautiful bay pass by through the big windows. Then it was time to say goodbye to our floating home. We packed up our bags and the cruise brought us back to the port. Our luxury van was waiting for us, and we started the 3-hour journey back to Hanoi. We were all a bit tired from the early morning, so some of us had a little nap in the comfy van! 😴",
+  "afternoon_photos": [
+    { "image": "/uploads/20260104_101512.jpg" },
+    { "image": "/uploads/IMG-20260105-WA0001.jpg" }
+  ],
+  "evening": "When we finally got back to our hotel in Hanoi, we were pretty tired but SO happy! Halong Bay was definitely one of the highlights of our whole Vietnam trip. We freshened up at the hotel and then went out for a yummy dinner. It felt good to be back in the busy streets of Hanoi after the peaceful calm of the bay. We spent the evening relaxing and looking through all the amazing photos we took on the cruise. What an incredible two days! 🌟",
+  "evening_photos": [
+    { "image": "/uploads/20260104_183614.jpg" },
+    { "image": "/uploads/20260104_185207.jpg" }
+  ],
+  "kids_rating": "⭐⭐⭐⭐⭐ - Kayaking was SO cool and Uncle Derek was so brave!",
+  "costs": "Included in cruise package",
+  "notes": "The Halong Bay cruise was absolutely worth it! Two days wasn't enough — we could have stayed forever. The kayaking was the perfect way to end our time on the water. Tip: Wake up early for the kayaking — the morning light is magical!",
   "gallery": [
     "/uploads/20260104_074827.jpg",
     "/uploads/20260104_080317.jpg",
